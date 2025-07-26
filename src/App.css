@@ -1,0 +1,110 @@
+
+.left-content {
+  flex: 1 1 40%;
+  min-width: 280px;
+}
+
+.right-image {
+  flex: 1 1 50%;
+  min-width: 300px;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.hero-section {
+  background-color: whitesmoke; 
+  height: 90vh;
+  padding: 60px 20px;
+  color: #333;
+}
+
+
+
+.hero-heading{     
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-size: 60px;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 10%;
+}
+.abc{
+  width: 130px;
+  background-color: #fff;
+  color: rgb(19, 17, 17);
+  position: relative;
+  bottom: 80px;
+  left: -20px;
+
+}
+
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.03);
+}
+
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+
+
+.sell-furniture-section {
+  background-color: #f9f9f9;
+}
+
+.sell-furniture-section h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+.b2b-section h2 {
+  font-family: 'Playfair Display', serif;
+}
+
+
+
+.b2b-solutions-section {
+  background-color: #f7f7f7;
+}
+
+.card-title {
+  font-size: 1.1rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
+
+
+.social-icons i {
+  transition: color 0.3s, transform 0.3s;
+  cursor: pointer;
+  color: #cfcece; 
+}
+
+.social-icons i:hover {
+  color: #0d6efd; 
+  transform: scale(1.2);
+}
+
+.container h6{
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+
+}
+
+.imgg img{
+  height: 450px;
+  
+}
